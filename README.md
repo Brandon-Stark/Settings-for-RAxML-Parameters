@@ -7,7 +7,7 @@ The SSE3 version will run about 40% faster than the non-SSE3 version.
 
 For example, the SSE3 version was called as follows:
 
-**./raxmlHPC-HYBRID-SSE3 -T 10 -f a -s env_roka_controls_aligned.phyx -n bootenv -m GTRCAT -p 12345 -x 12345 -#1000**
+**./raxmlHPC-HYBRID-SSE3 -T 10 -f a -s flu_china_controls_aligned.phy -n bootenv -m GTRCAT -p 12345 -x 12345 -#1000**
 
 ##### Note
 The explaination for `-T` is as following:
@@ -23,4 +23,4 @@ released AMD Bulldozer systems.
 
 For example, the AVX version was called as follows:
 
-**./raxmlHPC-AVX -f a -s env_roka_controls_aligned.phyx -n bootenv -m GTRCAT -p 12345 -x 12345 -#1000**
+**./raxmlHPC-AVX -f a -s flu_china_controls_aligned.phy -n bootenv -m GTRCAT -p 12345 -x 12345 -#1000**
