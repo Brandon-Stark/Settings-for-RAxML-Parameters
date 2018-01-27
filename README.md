@@ -9,7 +9,7 @@ For example, the SSE3 version was called as follows:
 
 **./raxmlHPC-HYBRID-SSE3 -T 10 -f a -s flu_china_controls_aligned.phy -n bootenv -m GTRCAT -p 12345 -x 12345 -#1000**
 
-##### Note
+##### Note:
 The explaination for `-T` is as following:
 PTHREADS VERSION ONLY! Specify the number of threads you want to run.
 Make sure to set "T" to at most the number of CPUs you have on your
