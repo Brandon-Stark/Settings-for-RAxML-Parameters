@@ -1,5 +1,5 @@
 # Settings-for-RAxML-Parameters
-# 设置RAxML允许参数的一般方法
+# RAxML参数设置的一般方法
 
 In general you should try to compile the SSE3 version that makes use of capabilities 
 on relativiely recent processors (most Intel or AMD chips not older than 3-4 years).
